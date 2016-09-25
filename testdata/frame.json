@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "deichman": "http://data.deichman.no/ontology#"
+  },
+  "type": "deichman:Work"
+
+}

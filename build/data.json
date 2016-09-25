@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "deichman": "http://data.deichman.no/ontology#"
+  },
+  "@graph": [
+    {
+      "id": "http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb",
+      "type": "deichman:Work",
+      "deichman:hasPublication": [
+        {
+          "id": "http://data.deichman.no/publication/p0",
+          "type": "deichman:Publication",
+          "deichman:contributor": [
+            {
+              "id": "_:b0"
+            },
+            {
+              "id": "_:b1"
+            }
+          ]
+        },
+        {
+          "id": "http://data.deichman.no/publication/p1",
+          "type": "deichman:Publication",
+          "deichman:contributor": [
+            {
+              "id": "_:b0",
+              "type": [
+                "deichman:Contribution",
+                "deichman:MainEntry"
+              ],
+              "deichman:agent": {
+                "id": "http://data.deichman.no/person/h1",
+                "type": "deichman:Person",
+                "deichman:name": "Markov, Monty"
+              },
+              "deichman:role": {
+                "id": "http://data.deichman.no/role#Author",
+                "deichman:name": "Author"
+              }
+            },
+            {
+              "id": "_:b1",
+              "type": "deichman:Contribution",
+              "deichman:agent": {
+                "id": "http://data.deichman.no/person/h2",
+                "type": "deichman:Person",
+                "deichman:name": "Markova, Maria"
+              },
+              "deichman:role": {
+                "id": "http://data.deichman.no/role#Illustrator",
+                "deichman:name": "Illustrator"
+              }
+            }
+          ]
+        },
+        {
+          "id": "http://data.deichman.no/publication/p2",
+          "type": "deichman:Publication"
+        }
+      ]
+    }
+  ]
+}

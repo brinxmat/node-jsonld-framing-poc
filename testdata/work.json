@@ -1,0 +1,462 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : [ "deichman:MainEntry", "deichman:Contribution" ],
+    "deichman:agent" : {
+      "@id" : "http://data.deichman.no/person/h10223100"
+    },
+    "deichman:role" : {
+      "@id" : "http://data.deichman.no/role#author"
+    }
+  }, {
+    "@id" : "_:b1",
+    "@type" : "deichman:SerialIssue",
+    "deichman:issue" : "6",
+    "deichman:serial" : {
+      "@id" : "http://data.deichman.no/serial/s22974900"
+    }
+  }, {
+    "@id" : "_:b2",
+    "@type" : "deichman:SerialIssue",
+    "deichman:issue" : "6",
+    "deichman:serial" : {
+      "@id" : "http://data.deichman.no/serial/s12117200"
+    }
+  }, {
+    "@id" : "_:b3",
+    "@type" : "deichman:SerialIssue",
+    "deichman:issue" : "6",
+    "deichman:serial" : {
+      "@id" : "http://data.deichman.no/serial/s12117200"
+    }
+  }, {
+    "@id" : "http://data.deichman.no/audience#ages11To12",
+    "@type" : "http://data.deichman.no/utility#Audience",
+    "http://data.deichman.no/utility#code" : "u",
+    "rdfs:label" : [ {
+      "@language" : "en",
+      "@value" : "11-12 years"
+    }, {
+      "@language" : "no",
+      "@value" : "11-12 år"
+    } ]
+  }, {
+    "@id" : "http://data.deichman.no/audience#ages13To15",
+    "@type" : "http://data.deichman.no/utility#Audience",
+    "http://data.deichman.no/utility#code" : "mu",
+    "rdfs:label" : [ {
+      "@language" : "en",
+      "@value" : "13-15 years"
+    }, {
+      "@language" : "no",
+      "@value" : "13-15 år"
+    } ]
+  }, {
+    "@id" : "http://data.deichman.no/audience#juvenile",
+    "@type" : "http://data.deichman.no/utility#Audience",
+    "http://data.deichman.no/utility#code" : "ju",
+    "rdfs:label" : [ {
+      "@language" : "en",
+      "@value" : "Juvenile"
+    }, {
+      "@language" : "no",
+      "@value" : "Barn og ungdom"
+    } ]
+  }, {
+    "@id" : "http://data.deichman.no/genre/g10474200",
+    "@type" : "deichman:Genre",
+    "http://data.deichman.no/duo#bibliofilAuthorityId" : "10474200",
+    "deichman:prefLabel" : "Detektivfortellinger"
+  }, {
+    "@id" : "http://data.deichman.no/genre/g12047700",
+    "@type" : "deichman:Genre",
+    "http://data.deichman.no/duo#bibliofilAuthorityId" : "12047700",
+    "deichman:prefLabel" : "Spenning"
+  }, {
+    "@id" : "http://data.deichman.no/literaryForm#novel",
+    "@type" : "http://data.deichman.no/utility#LiteraryForm",
+    "http://data.deichman.no/utility#code" : "r",
+    "rdfs:label" : [ {
+      "@language" : "en",
+      "@value" : "Novel"
+    }, {
+      "@language" : "no",
+      "@value" : "Roman"
+    } ]
+  }, {
+    "@id" : "http://data.deichman.no/mediaType#Book",
+    "@type" : "http://data.deichman.no/utility#MediaType",
+    "rdfs:label" : [ {
+      "@language" : "en",
+      "@value" : "Book"
+    }, {
+      "@language" : "no",
+      "@value" : "Bok"
+    } ]
+  }, {
+    "@id" : "http://data.deichman.no/nationality#n",
+    "@type" : "http://data.deichman.no/utility#Nationality",
+    "rdfs:label" : [ {
+      "@language" : "en",
+      "@value" : "Norway"
+    }, {
+      "@language" : "no",
+      "@value" : "Norge"
+    } ]
+  }, {
+    "@id" : "http://data.deichman.no/person/h10223100",
+    "@type" : "deichman:Person",
+    "http://data.deichman.no/duo#bibliofilAuthorityId" : "10223100",
+    "deichman:birthYear" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+      "@value" : "1956"
+    },
+    "deichman:name" : "Ambjørnsen, Ingvar",
+    "deichman:nationality" : {
+      "@id" : "http://data.deichman.no/nationality#n"
+    },
+    "http://data.deichman.no/raw#lifeSpan" : "1956-"
+  }, {
+    "@id" : "http://data.deichman.no/place/g0ef8f876d62a45352e28410454e3634b",
+    "@type" : "deichman:Place",
+    "deichman:prefLabel" : "Istanbul"
+  }, {
+    "@id" : "http://data.deichman.no/place/g2fd286355adee85314eadaf4d64f21d4",
+    "@type" : "deichman:Place",
+    "deichman:prefLabel" : "Oslo",
+    "deichman:specification" : "Motiv"
+  }, {
+    "@id" : "http://data.deichman.no/place/gf4830432874f86d2e2a1a5f2dbebbc80",
+    "@type" : "deichman:Place",
+    "deichman:prefLabel" : "Oslo"
+  }, {
+    "@id" : "http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44",
+    "@type" : "deichman:Publication",
+    "deichman:fictionNonfiction" : {
+      "@id" : "http://data.deichman.no/fictionNonfiction#fiction"
+    },
+    "deichman:hasHoldingBranch" : [ "fnor", "hbib" ],
+    "deichman:hasMediaType" : {
+      "@id" : "http://data.deichman.no/mediaType#Book"
+    },
+    "deichman:hasPlaceOfPublication" : [ {
+      "@id" : "http://data.deichman.no/place/g2fd286355adee85314eadaf4d64f21d4"
+    }, {
+      "@id" : "http://data.deichman.no/place/gf4830432874f86d2e2a1a5f2dbebbc80"
+    } ],
+    "deichman:inSerial" : {
+      "@id" : "_:b1"
+    },
+    "deichman:isbn" : "82-02-13998-8",
+    "deichman:language" : {
+      "@id" : "http://lexvo.org/id/iso639-3/nob"
+    },
+    "deichman:mainTitle" : "Flammer i snø",
+    "deichman:publicationOf" : {
+      "@id" : "http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb"
+    },
+    "deichman:publicationYear" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+      "@value" : "1993"
+    },
+    "deichman:recordID" : "408574",
+    "http://data.deichman.no/raw#description" : "1. utg.: 1992",
+    "http://data.deichman.no/raw#firstEditionCandidate" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+      "@value" : "1992"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+      "@value" : "1993"
+    } ],
+    "http://data.deichman.no/raw#locationCategory" : "u",
+    "http://data.deichman.no/raw#locationFormat" : "u",
+    "http://data.deichman.no/raw#locationSignature" : "Amb",
+    "http://data.deichman.no/raw#publicationPlace" : "Oslo",
+    "http://data.deichman.no/raw#publicationYear" : "1993",
+    "http://data.deichman.no/raw#statementOfResponsibility" : "Ingvar Ambjørnsen",
+    "http://migration.deichman.no/BsSubject" : {
+      "@id" : "http://data.deichman.no/subject/s65c42b75576b593d24e977e6e63c122b"
+    },
+    "http://migration.deichman.no/binding" : "h.",
+    "http://migration.deichman.no/genreAuthority" : [ {
+      "@id" : "http://data.deichman.no/juvenileGenreAuthority/x10474200"
+    }, {
+      "@id" : "http://data.deichman.no/juvenileGenreAuthority/x12047700"
+    } ],
+    "http://migration.deichman.no/genreSplit" : [ {
+      "@id" : "http://migration.deichman.no/genreSplit/g12047700"
+    }, {
+      "@id" : "http://migration.deichman.no/genreSplit/g10474200"
+    } ],
+    "http://migration.deichman.no/isPartOf" : {
+      "@id" : "http://data.deichman.no/work/wf271ec774a95996dd2cf36388c540dda"
+    },
+    "http://migration.deichman.no/mainEntryRole" : {
+      "@id" : "http://data.deichman.no/role#author"
+    },
+    "http://migration.deichman.no/numberOfPages" : "169 s.",
+    "http://migration.deichman.no/publisher" : "Cappelen",
+    "http://migration.deichman.no/subjectAuthority" : [ {
+      "@id" : "http://data.deichman.no/juvenileFictionSubjectAuthority/x10242300"
+    }, {
+      "@id" : "http://data.deichman.no/bsSubjectAuthority/kriminal"
+    } ],
+    "http://migration.deichman.no/workAuthority" : 10223100
+  }, {
+    "@id" : "http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed",
+    "@type" : "deichman:Publication",
+    "deichman:fictionNonfiction" : {
+      "@id" : "http://data.deichman.no/fictionNonfiction#fiction"
+    },
+    "deichman:hasHoldingBranch" : "hbib",
+    "deichman:hasMediaType" : {
+      "@id" : "http://data.deichman.no/mediaType#Book"
+    },
+    "deichman:hasPlaceOfPublication" : {
+      "@id" : "http://data.deichman.no/place/g0ef8f876d62a45352e28410454e3634b"
+    },
+    "deichman:isbn" : "978-975-07-0992-0",
+    "deichman:language" : {
+      "@id" : "http://lexvo.org/id/iso639-3/tur"
+    },
+    "deichman:mainTitle" : "Kardaki alevler",
+    "deichman:publicationOf" : {
+      "@id" : "http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb"
+    },
+    "deichman:publicationYear" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+      "@value" : "2008"
+    },
+    "deichman:recordID" : "925158",
+    "deichman:subtitle" : "Pelle ile Prof : altıncı kitap",
+    "http://data.deichman.no/raw#description" : "Spenningsroman. - Pelle og Proffen følger et hett spor: Påsatte branner i gamle leiegårder på Grünerløkka. Branner som viser seg å ha forbindelse til homofil kjærlighet",
+    "http://data.deichman.no/raw#firstEditionCandidate" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+      "@value" : "2008"
+    },
+    "http://data.deichman.no/raw#illustrativeMatter" : "ill.",
+    "http://data.deichman.no/raw#locationDewey" : "TUR",
+    "http://data.deichman.no/raw#locationFormat" : "u",
+    "http://data.deichman.no/raw#locationSignature" : "Amb",
+    "http://data.deichman.no/raw#publicationPlace" : "Istanbul",
+    "http://data.deichman.no/raw#publicationYear" : "2008",
+    "http://data.deichman.no/raw#statementOfResponsibility" : "Ingvar Ambjörnsen ; [overs. av] Denız Canefe ; [illustr. av] Şahin Erkoçak",
+    "http://migration.deichman.no/mainEntryRole" : {
+      "@id" : "http://data.deichman.no/role#author"
+    },
+    "http://migration.deichman.no/numberOfPages" : "195 s.",
+    "http://migration.deichman.no/publisher" : "Can",
+    "http://migration.deichman.no/subjectAuthority" : {
+      "@id" : "http://data.deichman.no/dfbSubjectAuthority/x19594700"
+    },
+    "http://migration.deichman.no/workAuthority" : 10223100
+  }, {
+    "@id" : "http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c",
+    "@type" : "deichman:Publication",
+    "deichman:fictionNonfiction" : {
+      "@id" : "http://data.deichman.no/fictionNonfiction#fiction"
+    },
+    "deichman:hasHoldingBranch" : [ "hsko", "fnyd", "fmaj", "fgry", "hbib" ],
+    "deichman:hasImage" : "http://static.deichman.no/bilder/345806/kr/1_thumb.jpg",
+    "deichman:hasMediaType" : {
+      "@id" : "http://data.deichman.no/mediaType#Book"
+    },
+    "deichman:hasPlaceOfPublication" : [ {
+      "@id" : "http://data.deichman.no/place/gf4830432874f86d2e2a1a5f2dbebbc80"
+    }, {
+      "@id" : "http://data.deichman.no/place/g2fd286355adee85314eadaf4d64f21d4"
+    } ],
+    "deichman:inSerial" : {
+      "@id" : "_:b2"
+    },
+    "deichman:isbn" : "82-02-13763-2",
+    "deichman:language" : {
+      "@id" : "http://lexvo.org/id/iso639-3/nob"
+    },
+    "deichman:mainTitle" : "Flammer i snø",
+    "deichman:publicationOf" : {
+      "@id" : "http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb"
+    },
+    "deichman:publicationYear" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+      "@value" : "1992"
+    },
+    "deichman:recordID" : "345806",
+    "http://data.deichman.no/raw#firstEditionCandidate" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+      "@value" : "1992"
+    },
+    "http://data.deichman.no/raw#locationCategory" : "u",
+    "http://data.deichman.no/raw#locationSignature" : "Amb",
+    "http://data.deichman.no/raw#publicationPlace" : "Oslo",
+    "http://data.deichman.no/raw#publicationYear" : "1992",
+    "http://data.deichman.no/raw#statementOfResponsibility" : "Ingvar Ambjørnsen",
+    "http://migration.deichman.no/binding" : "ib.",
+    "http://migration.deichman.no/followedByRecordId" : "396461",
+    "http://migration.deichman.no/followsRecordId" : "255069",
+    "http://migration.deichman.no/genreAuthority" : [ {
+      "@id" : "http://data.deichman.no/juvenileGenreAuthority/x12047700"
+    }, {
+      "@id" : "http://data.deichman.no/juvenileGenreAuthority/x10474200"
+    } ],
+    "http://migration.deichman.no/genreSplit" : [ {
+      "@id" : "http://migration.deichman.no/genreSplit/g10474200"
+    }, {
+      "@id" : "http://migration.deichman.no/genreSplit/g12047700"
+    } ],
+    "http://migration.deichman.no/mainEntryRole" : {
+      "@id" : "http://data.deichman.no/role#author"
+    },
+    "http://migration.deichman.no/numberOfPages" : "169 s.",
+    "http://migration.deichman.no/publisher" : "Cappelen",
+    "http://migration.deichman.no/subjectAuthority" : {
+      "@id" : "http://data.deichman.no/juvenileFictionSubjectAuthority/x10242300"
+    },
+    "http://migration.deichman.no/workAuthority" : 10223100
+  }, {
+    "@id" : "http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974",
+    "@type" : "deichman:Publication",
+    "deichman:fictionNonfiction" : {
+      "@id" : "http://data.deichman.no/fictionNonfiction#fiction"
+    },
+    "deichman:hasHoldingBranch" : [ "fbjo", "ftor", "fsto", "hbib", "fsme", "flam", "fopp", "fbol", "fgam", "fhol" ],
+    "deichman:hasMediaType" : {
+      "@id" : "http://data.deichman.no/mediaType#Book"
+    },
+    "deichman:hasPlaceOfPublication" : [ {
+      "@id" : "http://data.deichman.no/place/g2fd286355adee85314eadaf4d64f21d4"
+    }, {
+      "@id" : "http://data.deichman.no/place/gf4830432874f86d2e2a1a5f2dbebbc80"
+    } ],
+    "deichman:inSerial" : {
+      "@id" : "_:b3"
+    },
+    "deichman:isbn" : [ "82-02-25932-0", "978-82-02-25932-7" ],
+    "deichman:language" : {
+      "@id" : "http://lexvo.org/id/iso639-3/nob"
+    },
+    "deichman:mainTitle" : "Flammer i snø",
+    "deichman:publicationOf" : {
+      "@id" : "http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb"
+    },
+    "deichman:publicationYear" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+      "@value" : "2006"
+    },
+    "deichman:recordID" : "703357",
+    "deichman:tag" : {
+      "@id" : "http://data.deichman.no/tag/xtrakassering"
+    },
+    "http://data.deichman.no/raw#firstEditionCandidate" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+      "@value" : "2006"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+      "@value" : "1992"
+    } ],
+    "http://data.deichman.no/raw#locationCategory" : "u",
+    "http://data.deichman.no/raw#locationFormat" : "u",
+    "http://data.deichman.no/raw#locationSignature" : "Amb",
+    "http://data.deichman.no/raw#publicationPlace" : "Oslo",
+    "http://data.deichman.no/raw#publicationYear" : "2006",
+    "http://data.deichman.no/raw#statementOfResponsibility" : "Ingvar Ambjørnsen",
+    "http://migration.deichman.no/binding" : "h.",
+    "http://migration.deichman.no/genreAuthority" : [ {
+      "@id" : "http://data.deichman.no/juvenileGenreAuthority/x12047700"
+    }, {
+      "@id" : "http://data.deichman.no/juvenileGenreAuthority/x10474200"
+    } ],
+    "http://migration.deichman.no/genreSplit" : [ {
+      "@id" : "http://migration.deichman.no/genreSplit/g12047700"
+    }, {
+      "@id" : "http://migration.deichman.no/genreSplit/g10474200"
+    } ],
+    "http://migration.deichman.no/mainEntryRole" : {
+      "@id" : "http://data.deichman.no/role#author"
+    },
+    "http://migration.deichman.no/numberOfPages" : "169 s.",
+    "http://migration.deichman.no/publisher" : "Cappelen",
+    "http://migration.deichman.no/subjectAuthority" : {
+      "@id" : "http://data.deichman.no/juvenileFictionSubjectAuthority/x10242300"
+    },
+    "http://migration.deichman.no/workAuthority" : 10223100
+  }, {
+    "@id" : "http://data.deichman.no/serial/s12117200",
+    "@type" : "deichman:Serial",
+    "http://data.deichman.no/duo#bibliofilAuthorityId" : "12117200",
+    "deichman:mainTitle" : "Pelle og Proffen"
+  }, {
+    "@id" : "http://data.deichman.no/serial/s22974900",
+    "@type" : "deichman:Serial",
+    "http://data.deichman.no/duo#bibliofilAuthorityId" : "22974900",
+    "deichman:mainTitle" : "Pelle og Proffen pocket"
+  }, {
+    "@id" : "http://data.deichman.no/subject/s29cc2dccf8e7ba9397d4c59d9f81ef0d",
+    "@type" : "deichman:Subject",
+    "deichman:prefLabel" : "Spenning",
+    "deichman:specification" : "genre"
+  }, {
+    "@id" : "http://data.deichman.no/subject/s3871d21a4c20a36bceeb9410f2378cee",
+    "@type" : "deichman:Subject",
+    "deichman:prefLabel" : "Homofili"
+  }, {
+    "@id" : "http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb",
+    "@type" : "deichman:Work",
+    "deichman:hasPublication": {"@id": "http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed"},
+    "deichman:hasPublication": {"@id": "http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c"},
+    "deichman:hasPublication": {"@id": "http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974"},
+    "deichman:hasPublication": {"@id": "http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44"},
+     "deichman:audience" : [ {
+      "@id" : "http://data.deichman.no/audience#ages13To15"
+    }, {
+      "@id" : "http://data.deichman.no/audience#juvenile"
+    }, {
+      "@id" : "http://data.deichman.no/audience#ages11To12"
+    } ],
+    "deichman:contributor" : {
+      "@id" : "_:b0"
+    },
+    "deichman:genre" : [ {
+      "@id" : "http://data.deichman.no/genre/g10474200"
+    }, {
+      "@id" : "http://data.deichman.no/genre/g12047700"
+    } ],
+    "deichman:literaryForm" : {
+      "@id" : "http://data.deichman.no/literaryForm#novel"
+    },
+    "deichman:mainTitle" : "Flammer i snø",
+    "deichman:publicationYear" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+      "@value" : "1992"
+    },
+    "deichman:subject" : [ {
+      "@id" : "http://data.deichman.no/subject/s3871d21a4c20a36bceeb9410f2378cee"
+    }, {
+      "@id" : "http://data.deichman.no/subject/s29cc2dccf8e7ba9397d4c59d9f81ef0d"
+    } ]
+  }, {
+    "@id" : "http://lexvo.org/id/iso639-3/nob",
+    "@type" : "http://lexvo.org/ontology#Language",
+    "rdfs:label" : [ {
+      "@language" : "en",
+      "@value" : "Norwegian Bokmål"
+    }, {
+      "@language" : "no",
+      "@value" : "Norsk (bokmål)"
+    } ]
+  }, {
+    "@id" : "http://lexvo.org/id/iso639-3/tur",
+    "@type" : "http://lexvo.org/ontology#Language",
+    "rdfs:label" : [ {
+      "@language" : "en",
+      "@value" : "Turkish"
+    }, {
+      "@language" : "no",
+      "@value" : "Tyrkisk"
+    } ]
+  } ],
+  "@context" : {
+    "deichman" : "http://data.deichman.no/ontology#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

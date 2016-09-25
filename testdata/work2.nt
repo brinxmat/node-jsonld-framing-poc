@@ -1,0 +1,24 @@
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Work> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#hasPublication> <http://data.deichman.no/publication/p0> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#hasPublication> <http://data.deichman.no/publication/p1> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#hasPublication> <http://data.deichman.no/publication/p2> .
+<http://data.deichman.no/publication/p0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Publication> .
+<http://data.deichman.no/publication/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Publication> .
+<http://data.deichman.no/publication/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Publication> .
+<http://data.deichman.no/publication/p0> <http://data.deichman.no/ontology#contributor> _:0001 .
+_:0001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Contribution> .
+_:0001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#MainEntry> .
+_:0001 <http://data.deichman.no/ontology#agent> <http://data.deichman.no/person/h1> .
+<http://data.deichman.no/person/h1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Person> .
+<http://data.deichman.no/person/h1> <http://data.deichman.no/ontology#name> "Markov, Monty" .
+_:0001 <http://data.deichman.no/ontology#role> <http://data.deichman.no/role#Author> .
+<http://data.deichman.no/role#Author> <http://data.deichman.no/ontology#name> "Author" .
+<http://data.deichman.no/publication/p0> <http://data.deichman.no/ontology#contributor> _:0002 .
+_:0002 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Contribution> .
+_:0002 <http://data.deichman.no/ontology#agent> <http://data.deichman.no/person/h2> .
+<http://data.deichman.no/person/h2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Person> .
+<http://data.deichman.no/person/h2> <http://data.deichman.no/ontology#name> "Markova, Maria" .
+_:0002 <http://data.deichman.no/ontology#role> <http://data.deichman.no/role#Illustrator> .
+<http://data.deichman.no/role#Illustrator> <http://data.deichman.no/ontology#name> "Illustrator" .
+<http://data.deichman.no/publication/p1> <http://data.deichman.no/ontology#contributor> _:0001 .
+<http://data.deichman.no/publication/p1> <http://data.deichman.no/ontology#contributor> _:0002 .

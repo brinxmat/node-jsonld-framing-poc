@@ -1,0 +1,225 @@
+<http://data.deichman.no/audience#ages11To12> <http://data.deichman.no/utility#code> "u" .
+<http://data.deichman.no/audience#ages11To12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/utility#Audience> .
+<http://data.deichman.no/audience#ages11To12> <http://www.w3.org/2000/01/rdf-schema#label> "11-12 years"@en .
+<http://data.deichman.no/audience#ages11To12> <http://www.w3.org/2000/01/rdf-schema#label> "11-12 år"@no .
+<http://data.deichman.no/audience#ages13To15> <http://data.deichman.no/utility#code> "mu" .
+<http://data.deichman.no/audience#ages13To15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/utility#Audience> .
+<http://data.deichman.no/audience#ages13To15> <http://www.w3.org/2000/01/rdf-schema#label> "13-15 years"@en .
+<http://data.deichman.no/audience#ages13To15> <http://www.w3.org/2000/01/rdf-schema#label> "13-15 år"@no .
+<http://data.deichman.no/audience#juvenile> <http://data.deichman.no/utility#code> "ju" .
+<http://data.deichman.no/audience#juvenile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/utility#Audience> .
+<http://data.deichman.no/audience#juvenile> <http://www.w3.org/2000/01/rdf-schema#label> "Barn og ungdom"@no .
+<http://data.deichman.no/audience#juvenile> <http://www.w3.org/2000/01/rdf-schema#label> "Juvenile"@en .
+<http://data.deichman.no/genre/g10474200> <http://data.deichman.no/duo#bibliofilAuthorityId> "10474200" .
+<http://data.deichman.no/genre/g10474200> <http://data.deichman.no/ontology#prefLabel> "Detektivfortellinger" .
+<http://data.deichman.no/genre/g10474200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Genre> .
+<http://data.deichman.no/genre/g12047700> <http://data.deichman.no/duo#bibliofilAuthorityId> "12047700" .
+<http://data.deichman.no/genre/g12047700> <http://data.deichman.no/ontology#prefLabel> "Spenning" .
+<http://data.deichman.no/genre/g12047700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Genre> .
+<http://data.deichman.no/literaryForm#novel> <http://data.deichman.no/utility#code> "r" .
+<http://data.deichman.no/literaryForm#novel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/utility#LiteraryForm> .
+<http://data.deichman.no/literaryForm#novel> <http://www.w3.org/2000/01/rdf-schema#label> "Novel"@en .
+<http://data.deichman.no/literaryForm#novel> <http://www.w3.org/2000/01/rdf-schema#label> "Roman"@no .
+<http://data.deichman.no/mediaType#Book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/utility#MediaType> .
+<http://data.deichman.no/mediaType#Book> <http://www.w3.org/2000/01/rdf-schema#label> "Bok"@no .
+<http://data.deichman.no/mediaType#Book> <http://www.w3.org/2000/01/rdf-schema#label> "Book"@en .
+<http://data.deichman.no/nationality#n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/utility#Nationality> .
+<http://data.deichman.no/nationality#n> <http://www.w3.org/2000/01/rdf-schema#label> "Norge"@no .
+<http://data.deichman.no/nationality#n> <http://www.w3.org/2000/01/rdf-schema#label> "Norway"@en .
+<http://data.deichman.no/person/h10223100> <http://data.deichman.no/duo#bibliofilAuthorityId> "10223100" .
+<http://data.deichman.no/person/h10223100> <http://data.deichman.no/ontology#birthYear> "1956"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.deichman.no/person/h10223100> <http://data.deichman.no/ontology#name> "Ambjørnsen, Ingvar" .
+<http://data.deichman.no/person/h10223100> <http://data.deichman.no/ontology#nationality> <http://data.deichman.no/nationality#n> .
+<http://data.deichman.no/person/h10223100> <http://data.deichman.no/raw#lifeSpan> "1956-" .
+<http://data.deichman.no/person/h10223100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Person> .
+<http://data.deichman.no/place/g0ef8f876d62a45352e28410454e3634b> <http://data.deichman.no/ontology#prefLabel> "Istanbul" .
+<http://data.deichman.no/place/g0ef8f876d62a45352e28410454e3634b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Place> .
+<http://data.deichman.no/place/g2fd286355adee85314eadaf4d64f21d4> <http://data.deichman.no/ontology#prefLabel> "Oslo" .
+<http://data.deichman.no/place/g2fd286355adee85314eadaf4d64f21d4> <http://data.deichman.no/ontology#specification> "Motiv" .
+<http://data.deichman.no/place/g2fd286355adee85314eadaf4d64f21d4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Place> .
+<http://data.deichman.no/place/gf4830432874f86d2e2a1a5f2dbebbc80> <http://data.deichman.no/ontology#prefLabel> "Oslo" .
+<http://data.deichman.no/place/gf4830432874f86d2e2a1a5f2dbebbc80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Place> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/ontology#fictionNonfiction> <http://data.deichman.no/fictionNonfiction#fiction> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/ontology#hasHoldingBranch> "fnor" .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/ontology#hasHoldingBranch> "hbib" .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/ontology#hasMediaType> <http://data.deichman.no/mediaType#Book> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/ontology#hasPlaceOfPublication> <http://data.deichman.no/place/g2fd286355adee85314eadaf4d64f21d4> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/ontology#hasPlaceOfPublication> <http://data.deichman.no/place/gf4830432874f86d2e2a1a5f2dbebbc80> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/ontology#inSerial> _:b1 .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/ontology#isbn> "82-02-13998-8" .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/ontology#language> <http://lexvo.org/id/iso639-3/nob> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/ontology#mainTitle> "Flammer i snø" .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/ontology#publicationOf> <http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/ontology#publicationYear> "1993"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/ontology#recordID> "408574" .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/raw#description> "1. utg.: 1992" .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/raw#firstEditionCandidate> "1992"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/raw#firstEditionCandidate> "1993"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/raw#locationCategory> "u" .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/raw#locationFormat> "u" .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/raw#locationSignature> "Amb" .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/raw#publicationPlace> "Oslo" .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/raw#publicationYear> "1993" .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://data.deichman.no/raw#statementOfResponsibility> "Ingvar Ambjørnsen" .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://migration.deichman.no/BsSubject> <http://data.deichman.no/subject/s65c42b75576b593d24e977e6e63c122b> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://migration.deichman.no/binding> "h." .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://migration.deichman.no/genreAuthority> <http://data.deichman.no/juvenileGenreAuthority/x10474200> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://migration.deichman.no/genreAuthority> <http://data.deichman.no/juvenileGenreAuthority/x12047700> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://migration.deichman.no/genreSplit> <http://migration.deichman.no/genreSplit/g10474200> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://migration.deichman.no/genreSplit> <http://migration.deichman.no/genreSplit/g12047700> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://migration.deichman.no/isPartOf> <http://data.deichman.no/work/wf271ec774a95996dd2cf36388c540dda> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://migration.deichman.no/mainEntryRole> <http://data.deichman.no/role#author> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://migration.deichman.no/numberOfPages> "169 s." .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://migration.deichman.no/publisher> "Cappelen" .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://migration.deichman.no/subjectAuthority> <http://data.deichman.no/bsSubjectAuthority/kriminal> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://migration.deichman.no/subjectAuthority> <http://data.deichman.no/juvenileFictionSubjectAuthority/x10242300> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://migration.deichman.no/workAuthority> "10223100"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.deichman.no/publication/p33280ff2dcab521710161d8053abee44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Publication> .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/ontology#fictionNonfiction> <http://data.deichman.no/fictionNonfiction#fiction> .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/ontology#hasHoldingBranch> "hbib" .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/ontology#hasMediaType> <http://data.deichman.no/mediaType#Book> .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/ontology#hasPlaceOfPublication> <http://data.deichman.no/place/g0ef8f876d62a45352e28410454e3634b> .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/ontology#isbn> "978-975-07-0992-0" .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/ontology#language> <http://lexvo.org/id/iso639-3/tur> .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/ontology#mainTitle> "Kardaki alevler" .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/ontology#publicationOf> <http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/ontology#publicationYear> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/ontology#recordID> "925158" .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/ontology#subtitle> "Pelle ile Prof : altıncı kitap" .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/raw#description> "Spenningsroman. - Pelle og Proffen følger et hett spor: Påsatte branner i gamle leiegårder på Grünerløkka. Branner som viser seg å ha forbindelse til homofil kjærlighet" .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/raw#firstEditionCandidate> "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/raw#illustrativeMatter> "ill." .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/raw#locationDewey> "TUR" .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/raw#locationFormat> "u" .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/raw#locationSignature> "Amb" .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/raw#publicationPlace> "Istanbul" .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/raw#publicationYear> "2008" .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://data.deichman.no/raw#statementOfResponsibility> "Ingvar Ambjörnsen ; [overs. av] Denız Canefe ; [illustr. av] Şahin Erkoçak" .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://migration.deichman.no/mainEntryRole> <http://data.deichman.no/role#author> .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://migration.deichman.no/numberOfPages> "195 s." .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://migration.deichman.no/publisher> "Can" .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://migration.deichman.no/subjectAuthority> <http://data.deichman.no/dfbSubjectAuthority/x19594700> .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://migration.deichman.no/workAuthority> "10223100"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.deichman.no/publication/p370fff5781a7cb2add303fdcf4cac3ed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Publication> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#fictionNonfiction> <http://data.deichman.no/fictionNonfiction#fiction> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#hasHoldingBranch> "fgry" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#hasHoldingBranch> "fmaj" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#hasHoldingBranch> "fnyd" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#hasHoldingBranch> "hbib" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#hasHoldingBranch> "hsko" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#hasImage> "http://static.deichman.no/bilder/345806/kr/1_thumb.jpg" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#hasMediaType> <http://data.deichman.no/mediaType#Book> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#hasPlaceOfPublication> <http://data.deichman.no/place/g2fd286355adee85314eadaf4d64f21d4> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#hasPlaceOfPublication> <http://data.deichman.no/place/gf4830432874f86d2e2a1a5f2dbebbc80> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#inSerial> _:b2 .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#isbn> "82-02-13763-2" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#language> <http://lexvo.org/id/iso639-3/nob> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#mainTitle> "Flammer i snø" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#publicationOf> <http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#publicationYear> "1992"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/ontology#recordID> "345806" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/raw#firstEditionCandidate> "1992"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/raw#locationCategory> "u" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/raw#locationSignature> "Amb" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/raw#publicationPlace> "Oslo" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/raw#publicationYear> "1992" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://data.deichman.no/raw#statementOfResponsibility> "Ingvar Ambjørnsen" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://migration.deichman.no/binding> "ib." .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://migration.deichman.no/followedByRecordId> "396461" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://migration.deichman.no/followsRecordId> "255069" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://migration.deichman.no/genreAuthority> <http://data.deichman.no/juvenileGenreAuthority/x10474200> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://migration.deichman.no/genreAuthority> <http://data.deichman.no/juvenileGenreAuthority/x12047700> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://migration.deichman.no/genreSplit> <http://migration.deichman.no/genreSplit/g10474200> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://migration.deichman.no/genreSplit> <http://migration.deichman.no/genreSplit/g12047700> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://migration.deichman.no/mainEntryRole> <http://data.deichman.no/role#author> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://migration.deichman.no/numberOfPages> "169 s." .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://migration.deichman.no/publisher> "Cappelen" .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://migration.deichman.no/subjectAuthority> <http://data.deichman.no/juvenileFictionSubjectAuthority/x10242300> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://migration.deichman.no/workAuthority> "10223100"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.deichman.no/publication/p43a341c88264ba20ea4ac6fca057bf2c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Publication> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#fictionNonfiction> <http://data.deichman.no/fictionNonfiction#fiction> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#hasHoldingBranch> "fbjo" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#hasHoldingBranch> "fbol" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#hasHoldingBranch> "fgam" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#hasHoldingBranch> "fhol" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#hasHoldingBranch> "flam" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#hasHoldingBranch> "fopp" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#hasHoldingBranch> "fsme" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#hasHoldingBranch> "fsto" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#hasHoldingBranch> "ftor" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#hasHoldingBranch> "hbib" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#hasMediaType> <http://data.deichman.no/mediaType#Book> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#hasPlaceOfPublication> <http://data.deichman.no/place/g2fd286355adee85314eadaf4d64f21d4> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#hasPlaceOfPublication> <http://data.deichman.no/place/gf4830432874f86d2e2a1a5f2dbebbc80> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#inSerial> _:b3 .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#isbn> "82-02-25932-0" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#isbn> "978-82-02-25932-7" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#language> <http://lexvo.org/id/iso639-3/nob> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#mainTitle> "Flammer i snø" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#publicationOf> <http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#publicationYear> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#recordID> "703357" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/ontology#tag> <http://data.deichman.no/tag/xtrakassering> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/raw#firstEditionCandidate> "1992"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/raw#firstEditionCandidate> "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/raw#locationCategory> "u" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/raw#locationFormat> "u" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/raw#locationSignature> "Amb" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/raw#publicationPlace> "Oslo" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/raw#publicationYear> "2006" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://data.deichman.no/raw#statementOfResponsibility> "Ingvar Ambjørnsen" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://migration.deichman.no/binding> "h." .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://migration.deichman.no/genreAuthority> <http://data.deichman.no/juvenileGenreAuthority/x10474200> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://migration.deichman.no/genreAuthority> <http://data.deichman.no/juvenileGenreAuthority/x12047700> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://migration.deichman.no/genreSplit> <http://migration.deichman.no/genreSplit/g10474200> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://migration.deichman.no/genreSplit> <http://migration.deichman.no/genreSplit/g12047700> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://migration.deichman.no/mainEntryRole> <http://data.deichman.no/role#author> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://migration.deichman.no/numberOfPages> "169 s." .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://migration.deichman.no/publisher> "Cappelen" .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://migration.deichman.no/subjectAuthority> <http://data.deichman.no/juvenileFictionSubjectAuthority/x10242300> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://migration.deichman.no/workAuthority> "10223100"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Publication> .
+<http://data.deichman.no/serial/s12117200> <http://data.deichman.no/duo#bibliofilAuthorityId> "12117200" .
+<http://data.deichman.no/serial/s12117200> <http://data.deichman.no/ontology#mainTitle> "Pelle og Proffen" .
+<http://data.deichman.no/serial/s12117200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Serial> .
+<http://data.deichman.no/serial/s22974900> <http://data.deichman.no/duo#bibliofilAuthorityId> "22974900" .
+<http://data.deichman.no/serial/s22974900> <http://data.deichman.no/ontology#mainTitle> "Pelle og Proffen pocket" .
+<http://data.deichman.no/serial/s22974900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Serial> .
+<http://data.deichman.no/subject/s29cc2dccf8e7ba9397d4c59d9f81ef0d> <http://data.deichman.no/ontology#prefLabel> "Spenning" .
+<http://data.deichman.no/subject/s29cc2dccf8e7ba9397d4c59d9f81ef0d> <http://data.deichman.no/ontology#specification> "genre" .
+<http://data.deichman.no/subject/s29cc2dccf8e7ba9397d4c59d9f81ef0d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Subject> .
+<http://data.deichman.no/subject/s3871d21a4c20a36bceeb9410f2378cee> <http://data.deichman.no/ontology#prefLabel> "Homofili" .
+<http://data.deichman.no/subject/s3871d21a4c20a36bceeb9410f2378cee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Subject> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#audience> <http://data.deichman.no/audience#ages11To12> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#audience> <http://data.deichman.no/audience#ages13To15> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#audience> <http://data.deichman.no/audience#juvenile> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#contributor> _:b0 .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#genre> <http://data.deichman.no/genre/g10474200> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#genre> <http://data.deichman.no/genre/g12047700> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#hasPublication> <http://data.deichman.no/publication/p752fb2b70c4aa9399f5360135ccba974> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#literaryForm> <http://data.deichman.no/literaryForm#novel> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#mainTitle> "Flammer i snø" .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#publicationYear> "1992"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#subject> <http://data.deichman.no/subject/s29cc2dccf8e7ba9397d4c59d9f81ef0d> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://data.deichman.no/ontology#subject> <http://data.deichman.no/subject/s3871d21a4c20a36bceeb9410f2378cee> .
+<http://data.deichman.no/work/w041f1d392922628aee6bec28275270eb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Work> .
+<http://lexvo.org/id/iso639-3/nob> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lexvo.org/ontology#Language> .
+<http://lexvo.org/id/iso639-3/nob> <http://www.w3.org/2000/01/rdf-schema#label> "Norsk (bokmål)"@no .
+<http://lexvo.org/id/iso639-3/nob> <http://www.w3.org/2000/01/rdf-schema#label> "Norwegian Bokmål"@en .
+<http://lexvo.org/id/iso639-3/tur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lexvo.org/ontology#Language> .
+<http://lexvo.org/id/iso639-3/tur> <http://www.w3.org/2000/01/rdf-schema#label> "Turkish"@en .
+<http://lexvo.org/id/iso639-3/tur> <http://www.w3.org/2000/01/rdf-schema#label> "Tyrkisk"@no .
+_:b0 <http://data.deichman.no/ontology#agent> <http://data.deichman.no/person/h10223100> .
+_:b0 <http://data.deichman.no/ontology#role> <http://data.deichman.no/role#author> .
+_:b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#Contribution> .
+_:b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#MainEntry> .
+_:b1 <http://data.deichman.no/ontology#issue> "6" .
+_:b1 <http://data.deichman.no/ontology#serial> <http://data.deichman.no/serial/s22974900> .
+_:b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#SerialIssue> .
+_:b2 <http://data.deichman.no/ontology#issue> "6" .
+_:b2 <http://data.deichman.no/ontology#serial> <http://data.deichman.no/serial/s12117200> .
+_:b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#SerialIssue> .
+_:b3 <http://data.deichman.no/ontology#issue> "6" .
+_:b3 <http://data.deichman.no/ontology#serial> <http://data.deichman.no/serial/s12117200> .
+_:b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.deichman.no/ontology#SerialIssue> .
+
