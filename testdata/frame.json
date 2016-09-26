@@ -2,8 +2,25 @@
   "@context": {
     "id": "@id",
     "type": "@type",
-    "deichman": "http://data.deichman.no/ontology#"
+    "deichman": "http://data.deichman.no/ontology#",
+    "role": "http://data.deichman.no/role#",
+    "deichman:contributor": {
+      "type": "@id"
+    }
   },
-  "type": "deichman:Work"
+  "@explicit": true,
+  "type": "deichman:Work",
+  "deichman:hasPublication": {
+    "@explicit": true,
+    "type": "deichman:Publication",
+    "@embed": "@always",
+    "deichman:contributor": {
+      "@explicit": true,
+      "@embed": "@always",
+      "type": "deichman:Contribution",
+      "deichman:agent": {},
+      "deichman:role": {}
+    }
+  }
 
 }
