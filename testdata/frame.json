@@ -100,15 +100,32 @@
     "locationClassNumber": "deichman:locationClassNumber",
     "locationSignature": "deichman:locationSignature",
     "locationFormat": "deichman:locationFormat",
-    "hasDescription": "deichman:hasDescription"
+    "hasDescription": "deichman:hasDescription",
+    "hasPublication": "deichman:hasPublication",
+    "publications": {
+      "@id": "hasPublication",
+      "@container": "@set"
+    },
+    "languages": {
+      "@id": "language",
+      "@container": "@set"
+    },
+    "formats": {
+      "@id": "format",
+      "@container": "@set"
+    },
+    "contributors": {
+      "@id": "contributor",
+      "@container": "@set"
+    }
   },
   "@explicit": true,
-  "type": "deichman:Work",
-  "deichman:hasPublication": {
+  "type": "Work",
+  "publications": {
     "@explicit": true,
     "type": "deichman:Publication",
     "@embed": "@always",
-    "deichman:contributor": {
+    "contributor": {
       "@explicit": true,
       "@embed": "@always",
       "type": "deichman:Contribution",
