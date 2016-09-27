@@ -117,6 +117,18 @@
     "contributors": {
       "@id": "contributor",
       "@container": "@set"
+    },
+    "mediaTypes": {
+      "@id": "hasMediaType",
+      "@container": "@set"
+    },
+    "genres": {
+      "@id": "genre",
+      "@container": "@set"
+    },
+    "subjects": {
+      "@id": "subject",
+      "@container": "@set"
     }
   },
   "@explicit": true,
