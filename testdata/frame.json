@@ -3,8 +3,10 @@
     "id": "@id",
     "type": "@type",
     "deichman": "http://data.deichman.no/ontology#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dro": "http://data.deichman.no/role#",
     "duo": "http://data.deichman.no/utility#",
+    "raw": "http://data.deichman.no/raw#",
     "MainEntry": "deichman:MainEntry",
     "Work": "deichman:Work",
     "Publication": "deichman:Publication",
@@ -43,16 +45,12 @@
     "personTitle": "deichman:personTitle",
     "specification": "deichman:specification",
     "subject": "deichman:subject",
-    "publicationYear": "deichman:publicationYear",
     "recordID": "deichman:recordID",
     "language": "deichman:language",
     "format": "deichman:format",
     "hasMediaType": "deichman:hasMediaType",
     "hasWorkType": "deichman:hasWorkType",
-    "publicationOf": "deichman:publicationOf",
-    "birthYear": "deichman:birthYear",
     "deathYear": "deichman:deathYear",
-    "nationality": "deichman:nationality",
     "writingSystem": "deichman:writingSystem",
     "binding": "deichman:binding",
     "illustrativeMatter": "deichman:illustrativeMatter",
@@ -65,7 +63,6 @@
     "numberOfPages": "deichman:numberOfPages",
     "isbn": "deichman:isbn",
     "literaryForm": "deichman:literaryForm",
-    "fictionNonfiction": "deichman:fictionNonfiction",
     "audience": "deichman:audience",
     "biography": "deichman:biography",
     "hasFormatAdaptation": "deichman:hasFormatAdaptation",
@@ -108,10 +105,12 @@
     },
     "languages": {
       "@id": "language",
+      "@type": "@id",
       "@container": "@set"
     },
     "formats": {
       "@id": "format",
+      "@type": "@id",
       "@container": "@set"
     },
     "contributors": {
@@ -120,6 +119,7 @@
     },
     "mediaTypes": {
       "@id": "hasMediaType",
+      "@type": "@id",
       "@container": "@set"
     },
     "genres": {
@@ -129,20 +129,58 @@
     "subjects": {
       "@id": "subject",
       "@container": "@set"
+    },
+    "nationality": {
+      "@id": "deichman:nationality",
+      "@type": "@id"
+    },
+    "birthYear": {
+      "@id": "deichman:birthYear",
+      "@type": "xsd:gYear"
+    },
+    "publicationYear": {
+      "@id": "deichman:publicationYear",
+      "@type": "xsd:gYear"
+    },
+    "firstEditionCandidate": {
+      "@id": "raw:firstEditionCandidate",
+      "@type": "xsd:gYear"
+    },
+    "publicationOf": {
+      "@id": "deichman:publicationOf",
+      "@type": "@id"
+    },
+    "fictionNonfiction": {
+      "@id": "deichman:fictionNonfiction",
+      "@type": "@id"
     }
   },
   "@explicit": true,
   "type": "Work",
   "publications": {
-    "@explicit": true,
     "type": "deichman:Publication",
     "@embed": "@always",
-    "contributor": {
-      "@explicit": true,
+    "contributors": {
       "@embed": "@always",
       "type": "deichman:Contribution",
-      "deichman:agent": {},
+      "deichman:agent": {
+        "nationality": {
+          "@embed": "@never"
+        }
+      },
       "deichman:role": {}
+    },
+    "languages": {
+      "@embed": "@never"
+    },
+    "formats": {
+      "@embed": "@never"
+    },
+    "genres": {
+      "@embed": "@never"
+    },
+    "mediaTypes": {
+      "@embed": "@never"
     }
   }
 
